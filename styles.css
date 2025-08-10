@@ -82,6 +82,7 @@ img.main {
     background-color: var(--blue-900);
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
     border-radius: 15px;
+    max-width: 350px;
   }
 
   h2 {
