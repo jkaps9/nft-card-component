@@ -1,3 +1,11 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   /* Body Text */
   --blue-500: #8bacd9;
@@ -15,8 +23,15 @@
   --black: #000000;
 }
 
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
 h2 {
+  font-size: 22px;
   color: var(--white);
+  line-height: 1.25em;
+  font-weight: 600;
 }
 
 p {
