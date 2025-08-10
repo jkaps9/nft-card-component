@@ -42,6 +42,11 @@ p {
   font-weight: 300;
 }
 
+img.main {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
 /* FONTS */
 /* outfit-300 - latin */
 @font-face {
