@@ -80,10 +80,12 @@ p {
     max-width: 350px;
   }
 
-  img.main {
+  .image {
     width: 100%;
     margin-bottom: 1.5rem;
-    border-radius: 0.5rem;
+    img {
+      border-radius: 0.5rem;
+    }
   }
 
   h2 {
