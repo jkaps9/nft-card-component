@@ -91,6 +91,8 @@ p {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
+    font-size: 16px;
+    line-height: 1.25em;
   }
 
   .price {
@@ -100,8 +102,6 @@ p {
     color: var(--cyan-400);
 
     font-weight: 600;
-    font-size: 16px;
-    line-height: 1.25em;
   }
 
   .deadline {
@@ -109,6 +109,8 @@ p {
     align-items: center;
     gap: 0.5rem;
     color: var(--blue-500);
+
+    font-weight: 400;
   }
 
   .line {
