@@ -119,4 +119,25 @@ p {
     background: var(--blue-800);
     margin-bottom: 1.5rem;
   }
+
+  .creator {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+      height: 33px;
+      width: 33px;
+      border: 1px solid var(--white);
+      border-radius: 99px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .name {
+      color: var(--white);
+    }
+  }
 }
