@@ -124,6 +124,10 @@ p {
 
   h2 {
     margin-bottom: 1rem;
+    cursor: pointer;
+    &:hover {
+      color: var(--cyan-400);
+    }
   }
 
   p {
@@ -182,6 +186,10 @@ p {
 
     .name {
       color: var(--white);
+      cursor: pointer;
+      &:hover {
+        color: var(--cyan-400);
+      }
     }
   }
 }
