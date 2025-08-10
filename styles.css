@@ -91,5 +91,24 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--cyan-400);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+
+  .deadline {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--blue-500);
   }
 }
