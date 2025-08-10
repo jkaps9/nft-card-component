@@ -1,1 +1,67 @@
+:root {
+  /* Body Text */
+  --blue-500: #8bacd9;
 
+  --cyan-400: #00fff8;
+
+  /* Main BG */
+  --blue-950: #0d192c;
+  /* Card BG */
+  --blue-900: #15263f;
+  /* Line */
+  --blue-800: #2e405a;
+
+  --white: #ffffff;
+  --black: #000000;
+}
+
+h2 {
+  color: var(--white);
+}
+
+p {
+  font-size: 18px;
+  color: var(--blue-500);
+  line-height: 1.45em;
+  font-weight: 300;
+}
+
+/* FONTS */
+/* outfit-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/outfit-v14-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/outfit-v14-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* NFT Card */
+#nft-card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+    background-color: var(--blue-900);
+
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+  }
+}
