@@ -42,11 +42,6 @@ p {
   font-weight: 300;
 }
 
-img.main {
-  width: 100%;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
-}
 /* FONTS */
 /* outfit-300 - latin */
 @font-face {
@@ -83,6 +78,12 @@ img.main {
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
     border-radius: 15px;
     max-width: 350px;
+  }
+
+  img.main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
   }
 
   h2 {
