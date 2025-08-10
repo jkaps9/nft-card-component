@@ -25,6 +25,7 @@
 
 body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+  background-color: var(--blue-950);
 }
 
 h2 {
