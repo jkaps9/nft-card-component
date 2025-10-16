@@ -9,36 +9,44 @@
   <body>
     <main>
       <section id="nft-card">
-        <div class="container">
-          <div class="image">
+        <div class="card">
+          <div class="card__image-container">
             <img
-              class="main"
+              class="card__image"
               src="assets/images/image-equilibrium.jpg"
               alt="equilibrium"
               width="302px"
               height="302px"
             />
-            <div class="overlay"></div>
-            <div class="eye">
+            <div class="card__image-overlay"></div>
+            <div class="card__image-overlay__image">
               <img src="assets/images/icon-view.svg" alt="view" />
             </div>
           </div>
-          <h2>Equilibrium #3429</h2>
-          <p>Our Equilibrium collection promotes balance and calm.</p>
-          <div class="data-row">
-            <span class="price">
+          <h2 class="card__title">Equilibrium #3429</h2>
+          <p class="card__text">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="data-container">
+            <span class="data__price">
               <img src="assets/images/icon-ethereum.svg" alt="ethereum" />0.041
               ETH</span
             >
-            <span class="deadline"
+            <span class="data__deadline"
               ><img src="assets/images/icon-clock.svg" alt="clock" />3 days
               left</span
             >
           </div>
-          <div class="line"></div>
-          <div class="creator">
-            <img src="assets/images/image-avatar.png" alt="" />
-            <p>Creation of <span class="name">Jules Wyvern</span></p>
+          <div class="card__divider"></div>
+          <div class="card__creator">
+            <img
+              src="assets/images/image-avatar.png"
+              alt=""
+              class="card__creator__image"
+            />
+            <p class="card__creator__text">
+              Creation of <span class="card__creator__name">Jules Wyvern</span>
+            </p>
           </div>
         </div>
       </section>
